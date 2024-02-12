@@ -2,10 +2,10 @@ public class Main
 {
 	public static void main(String[] args) {
 	   	System.out.print("Result:");
-	   	Biggest(10,20);
+	   	Average(10,20,30);
 	}
-	public static void Biggest(int a,int b){
-	    int result=a>b?a:b;
+	public static void Average(int a,int b,int c){
+	    float result=(a+b+c)/3;
 	    System.out.println(result);
 	}
 }
