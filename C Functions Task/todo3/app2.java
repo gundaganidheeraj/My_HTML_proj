@@ -1,1 +1,11 @@
-
+public class Main
+{
+	public static void main(String[] args) {
+	   	System.out.print("Result:");
+	   	Biggest(10,20);
+	}
+	public static void Biggest(int a,int b){
+	    int result=a>b?a:b;
+	    System.out.println(result);
+	}
+}
