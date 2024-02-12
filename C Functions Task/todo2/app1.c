@@ -2,7 +2,7 @@
 //called function
 void formula(int a,int b){
     int result=(a*a)+(b*b)+2*(a+b);
-    print("%d",result);
+    printf("%d",result);
 }
 
 int main()
