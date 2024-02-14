@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Doctors Registration</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center; color: red;">APOLLO HOSPITALS</h1>
+        </header>
+        <p style="text-align: center; font-size:large;">
+            <a href="home.html">About Apollo |</a>
+            <a href="Branches.html" >Apollo Branches |</a>
+            <a href="services.html" >Apollo Services |</a>
+            <a href="contacts.html" >Apollo Contact |</a>
+            <a href="doctors.html" >Our Doctors |</a>
+            <a href="labs.html" >Our Labs |</a>
+            <a href="DoctorsSignUp.html" >Doctors SignUp |</a>
+            <a href="DoctorsLogin.html" >Doctors Login |</a>
+            <a href="#" >patient SignUp |</a>
+            <a href="PatientsLogin.html" >Patients Login</a>
+        </p>
+        <hr>
+        <form> 
+            <table align="center" style="background-color: silver; border-radius: 10px;" cellspacing="10px">
+                <h2 style="text-align: center;">Patient's Registration Form</h2>
+                <tr>
+                    <td>
+                        <label>Patients Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" style="border-radius: 4px;" placeholder="Enter First name" name="fname" id="fname">
+                    </td>
+                    <td>
+                        <input type="text" style="border-radius: 4px;" placeholder="Enter Last name" name="lname" id="lname">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <input type="radio" name="gender" id='m' >Male<input type="radio" name="gender" id="f">Female<input type="radio" name="gender" id="o">Others
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Mobile.No:</label></td>
+                    <td><input type="number" style="border-radius: 4px;" placeholder="Enter mobile number"></td>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth:</label></td>
+                    <td><input type="date" style="border-radius: 4px;"></td>
+                </tr>
+                <tr>
+                    <td><label>Maritial Status:</label></td>
+                    <td colspan="2"><input type="radio"  name="status" id="s">Single
+                        <input type="radio"  name="status" id="M">Married
+                        <input type="radio"  name="status" id="d">Divorced
+                        <input type="radio"  name="status" id="W">Widow
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Patient's Address:</label></td>
+                    <td colspan="2"><input type="text" placeholder="Street Address" size="46" style="border-radius: 5px;"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2"></td>
+                    <td><select name="state" id="state" style="border-radius: 4px;">
+                        <option>Select the state name</option>
+                        <option value="tel">Telangana</option>
+                        <option value="ap">Andhra Pradesh</option>
+                        <option value="TN">Tamilnadu</option>
+                        <option value="mr">Maharastra</option>
+                        <option value="ab">Ahmedabad</option>
+                        <option value="gu">Gujarat</option>
+                        <option value="ch">Chhatttisghar</option>
+                        <option value="ass">Assam</option>
+                        <option value="ach">Anurachalpradesh</option>
+                    </select>
+                </td>
+                <td>
+                    <select style="border-radius: 4px;">
+                        <option >Select the city name</option>
+                        <option value="city1">city1</option>
+                        <option value="city2">city2</option>
+                        <option value="city3">city3</option>
+                        <option value="city4">city4</option>
+                        <option value="city5">city5</option>
+                        <option value="city6">city6</option>
+                        <option value="city7">city7</option>
+                        <option value="city8">city8</option>
+                    </select>
+                </td> 
+                <tr>
+                    <td><input type="number" name="pin" id="pin" placeholder="Postal Zip code" style="border-radius: 4px;"></td>
+                    <td><select style="border-radius: 4px;">
+                        <option >Select the country </option>
+                        <option value="c1">Afghanistan</option>
+                        <option value="c2">Albania</option>
+                        <option value="c3">Algeria</option>
+                        <option value="c4">Argentina</option>
+                        <option value="c5">Belgium</option>
+                        <option value="c6">Belize</option>
+                        <option value="c7">Cambodia</option>
+                        <option value="c8">Colombia</option>
+                        <option value="c9">Denmark</option>
+                        <option value="c10">Eritrea</option>
+                        <option value="c11">Finland</option>
+                        <option value="c12">Gabon</option>
+                        <option value="c13">Hawaii</option>
+                        <option value="c14">India</option>
+                        <option value="c15">Indonesia</option>
+                    </select></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><label>Insurrance Number:</label></td>
+                    <td><input type="text" style="border-radius: 4px;"></td>
+                </tr>
+                <tr>
+                    <td><label>Past medical history:</label><br>
+                        
+                    </td>
+                    <td >
+                        <input type="checkbox" name="dissease">Anemia<br>
+                        <input type="checkbox" name="dissease">Asthma<br>
+                        <input type="checkbox" name="dissease">Bronchities<br>
+                        <input type="checkbox" name="dissease">Chickenpox<br>
+                        <input type="checkbox" name="dissease">Diabetes<br>
+                        <input type="checkbox" name="dissease">Tyroid Disease<br>
+                        <input type="checkbox" name="dissease">Penumonia<br>
+                        <input type="checkbox" name="dissease">Ulcer<br>
+                        <input type="checkbox" name="dissease">Other<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center"><input type="submit" value="Register" style="border-radius: 4px;">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="Clear" style="border-radius: 4px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">Already Registered?<a href="PatientsLogin.html"> Click here to Login </a></td>
+                </tr>
+            </table>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <footer>
+            <h3 style="text-align: center;color: blue;">Copyright@360Digrii</h3>
+        </footer>
+    </body>
+</html>
