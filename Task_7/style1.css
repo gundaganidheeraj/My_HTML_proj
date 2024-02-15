@@ -1,0 +1,12 @@
+h3{
+    color: aliceblue;
+    background-color: black;
+}
+#new{
+    color: red;
+    border: 8px solid blue;
+    width: 200px;
+    /* border: 8px dotted blue; */
+    /* border: 8px dashed blue; */
+    /* border: 8px double blue; */
+}
